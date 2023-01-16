@@ -1,0 +1,157 @@
+<html>
+
+
+<head>
+    
+    <title> Form Vilidation </title>
+    
+    <script type ="text/javascript">
+    
+    </script>
+    
+    <style>
+        body{
+            background-image: url("https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80.jpeg");
+            background-repeat: no-repeat;
+            background-size:100% 100%;
+            color: white;
+            
+        }
+    </style>
+   
+    
+    </head>
+
+    
+    
+    <body>
+    <center>
+        <h1 style="color:orange"> <u> Maharana Pratap Polytechnic College </u> </h1>
+        <h2>Registration Form   </h2>
+    <form action ="/cgi-bin/test.cgi" name ="myForm" onsubmit ="return(validate());">
+    <table cellspacing ="3" cellpadding ="2" border ="1">
+        
+        <tr>    
+        <td align ="right"> Name </td>
+            <td> <input type ="text" name ="Name"/> </td>
+        <td align="right">Gender </td>
+            <td>
+            <select  name="Gender"  >
+            <option value="-1" selected>[choose gender] </option>
+            <option value="1"> MALE</option>
+            <option value="2">FEMALE</option>
+            </select>
+            </td>
+        
+            
+        </tr>
+        
+         <tr>
+        <td align="right">Father's Name</td>
+        <td> <input type ="text"/> </td>
+      
+        <td align="right">Mother's Name</td>
+        <td> <input type ="text"/> </td>
+        </tr>
+        
+        <tr>
+        <td align="right">Category </td>
+        <td> 
+            <input type="checkbox">Gen
+              <input type="checkbox">OBC
+              <input type="checkbox">SC
+              <input type="checkbox">ST
+                   </td>
+        
+            <td align="right">Religion</td>
+            <td> <input type="text"/> </td>
+                
+        </tr>
+        
+        <tr>
+        <td align="right">D.O.B</td>
+        <td> <input type="date"</td>
+            <td align="right"> Blood Group </td>
+            <td> 
+                <input type="checkbox">A 
+                <input type="checkbox">B
+                <input type="checkbox">O
+                <input type="checkbox">AB
+                
+            </td>
+            
+        </tr>
+        
+        
+    
+        <tr>
+         <td align="right"> Branch</td>
+     
+        <td>
+        <select name ="Branch"> 
+            <option value ="-1" selected> [choose branch]</option>
+            
+            <option value ="1"> CSE</option>
+            <option value ="2">EE</option>
+            <option vlaue ="3">MC</option>
+            <option value="4">EEE </option>
+            <option value="5">MPE</option>
+            </select>
+        
+        <td align ="right"> Year </td>
+        <td>
+        <select name ="Year">
+            <option value="-1">[choose Year]</option>
+        <option value="1"> 1st Year</option>
+            <option vaue="2"> 2nd Year/LT. Entry</option>
+            
+            
+            
+        
+        </select>
+            </td>
+            </tr>
+        
+          
+        <tr>
+        <td align ="right"> Mobile No. </td>
+            <td> <input type ="text"/> </td>
+            
+        <td align ="right"> Email </td>
+            <td> <input type ="text"/> </td>
+        
+        
+        <tr>    
+        <td align ="right"> Country  </td>
+            <td> <input type ="text"/> </td>
+            
+        
+       
+        <td align="right"> State</td>
+        <td> <input type ="text"/> </td>
+        </tr>
+        
+        
+        <tr>
+        <td align="right">Zip Code</td>
+        <td> <input type="text"/> </td>
+            
+            <td align="right"> Permanent Address </td>
+            <td> <input type="text"/> </td>
+        </tr>
+        
+       
+         
+        
+        </table>
+    
+        <td align ="right"> </td>
+            <td> <input type="submit" value ="Submit"/> </td>   
+            <td align="right"> </td>
+            <td> <input type="reset" value="Reset"/> </td>
+  
+    </form>
+    </center>
+    </body>
+
+</html>
